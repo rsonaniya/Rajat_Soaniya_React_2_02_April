@@ -15,7 +15,6 @@ useEffect(()=>{
 
   const handleDarkModeChange = () => {
     setIsDarkMode(() => !isDarkMode);
-    console.log(isDarkMode);
   };
   return (
     <div
